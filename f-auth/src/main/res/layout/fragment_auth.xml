@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_arzonpay_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?colorPrimary" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phone_til"
+        style="@style/TextInputLayout.FilledBox.Round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/auth_phone_hint"
+        app:layout_constraintTop_toBottomOf="@id/logo_iv">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone_et"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789()+- "
+            android:imeOptions="actionDone"
+            android:inputType="phone|textNoSuggestions" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/anonymous_auth_btn"
+        style="@style/Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/auth_continue_without_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone_til" />
+
+    <ru.arzonpay.android.ui.view.shadow.ShadowLayout
+        android:id="@+id/auth_btn_container"
+        android:tag="@string/snackbar_anchor_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="8dp"
+        android:theme="@style/ShadowLayoutStyle.Button"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/auth_button"
+            style="@style/DefaultButton.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/auth_submit_text" />
+    </ru.arzonpay.android.ui.view.shadow.ShadowLayout>
+
+    <ru.arzonpay.android.ui.placeholder.PlaceHolderViewContainer
+        android:id="@+id/placeholder_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

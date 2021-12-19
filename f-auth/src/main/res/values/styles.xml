@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Виджет ввода PIN -->
+    <style name="PinEntryViewStyle" parent="AppTheme">
+        <item name="accentType">character</item>
+        <item name="digitBackground">@drawable/bg_code_digit_background</item>
+        <item name="digitErrorBackground">@drawable/bg_code_digit_error_background</item>
+        <item name="digitTextAppearance">@style/Text.Light.48.PrimaryColor</item>
+        <item name="isCursorAccentEnabled">true</item>
+        <item name="mask">@string/otp_mask</item>
+        <item name="accentWidth">1dp</item>
+        <item name="pinAccentColor">?colorAccent</item>
+        <item name="numDigits">6</item>
+        <item name="pinInputType">number</item>
+        <item name="cursorColor">?colorAccent</item>
+        <item name="cursorWidth">2dp</item>
+        <item name="cursorCornerRadius">16dp</item>
+    </style>
+
+</resources>

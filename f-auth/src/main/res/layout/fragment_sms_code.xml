@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/otp_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/sms_code_title"
+            app:titleTextAppearance="@style/Text.Medium.18.PrimaryColor" />
+
+        <TextView
+            android:id="@+id/otp_message_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="5sp"
+            android:textAppearance="@style/Text.Regular.16.SecondaryColor"
+            tools:text="Код отправлен на номер +7 (980) 7** ** 77" />
+
+        <TextView
+            android:id="@+id/otp_hint_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/sms_code_hint"
+            android:textAppearance="@style/Text.Regular.14.TertiaryColor" />
+
+        <ru.arzonpay.android.f_auth.code.view.PinEntryView
+            android:id="@+id/otp_pev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="8dp"
+            android:theme="@style/PinEntryViewStyle" />
+
+        <TextView
+            android:id="@+id/otp_resend_tv"
+            style="@style/Text.Regular.14.TertiaryColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            tools:text="Отправить код повторно через: 00:58" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/resend_btn"
+            style="@style/Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/sms_code_resent_action"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ru.arzonpay.android.ui.placeholder.PlaceHolderViewContainer
+        android:id="@+id/otp_placeholder_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:visibility="gone" />
+
+</FrameLayout>
