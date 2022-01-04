@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phone_til"
+    style="@style/TextInputLayout.FilledBox.Round"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/auth_phone_hint">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone_et"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789()+- "
+        android:inputType="phone|textNoSuggestions" />
+</com.google.android.material.textfield.TextInputLayout>
