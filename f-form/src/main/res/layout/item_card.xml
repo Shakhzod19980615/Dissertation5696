@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_number_til"
+    style="@style/TextInputLayout.FilledBox.Round"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/feed_receiver_card_number">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/card_number_et"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789 "
+        android:inputType="number" />
+</com.google.android.material.textfield.TextInputLayout>
