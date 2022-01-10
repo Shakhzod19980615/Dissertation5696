@@ -1,0 +1,31 @@
+package ru.arzonpay.android.base.util
+
+const val SPACE_CHAR = ' '
+const val NO_BREAK_SPACE = "\u00A0"
+const val RUB_SYMBOL = "\u20BD"
+const val SUM_SYMBOL = "UZS"
+const val DOT_CHAR = '.'
+const val COMMA_CHAR = ','
+const val COMMA_SEPARATOR = ", "
+const val PLUS_CHAR = '+'
+const val PLUS_STRING = "+"
+const val NUMERIC_PATTERN = "####.##"
+const val AT_CHAR = '@'
+const val ASTERISK_CHAR = '*'
+const val UNDERSCORE_CHAR = '_'
+const val MINUS_CHAR = '-'
+const val NEW_LINE_CHAR = '\n'
+const val CARRIAGE_RETURN_CHAR = '\r'
+const val COLON_CHAR = ':'
+const val MINUS_STRING = "-"
+const val NEW_LINE_STRING = "\n"
+const val DOT_STRING = "."
+const val COMMA_STRING = ","
+const val SPACE_STRING = " "
+const val DASH_STRING = "-"
+const val ZERO_CHAR = '0'
+const val ZERO_STRING = "0"
+const val HTML_MIME_TYPE = "text/html"
+const val SLASH_STRING = "/"
+const val COLON_STRING = ":"
+const val UTF8 = "UTF-8"
