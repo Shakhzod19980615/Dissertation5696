@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:navigationIcon="@drawable/ic_back"
+        android:titleTextAppearance="@style/Text.Bold.22.PrimaryColor" />
+
+    <WebView
+        android:id="@+id/process_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:scrollbars="vertical" />
+
+    <ru.arzonpay.android.ui.placeholder.PlaceHolderViewContainer
+        android:id="@+id/placeholder_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize" />
+</FrameLayout>
