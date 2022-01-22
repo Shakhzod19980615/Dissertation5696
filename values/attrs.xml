@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="emptyStateIcon" format="reference" />
+    <attr name="errorStateIcon" format="reference" />
+    <attr name="shadowButtonStyle" format="reference" />
+
+    <declare-styleable name="PostfixEditText">   <!-- todo удалить если неунжно PostfixEditText -->
+        <attr name="postfixText" format="string" />
+        <attr name="postfixTextColor" format="color" />
+        <attr name="postfixPadding" format="dimension" />
+        <attr name="postfixTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <!--region PlaceHolderViewContainer-->
+    <declare-styleable name="PlaceHolderViewContainer">
+        <attr name="shimmerLayout" format="reference" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <!--region ShadowLayout -->
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadowLeftOffset" format="dimension|reference" />
+        <attr name="shadowRightOffset" format="dimension|reference" />
+        <attr name="shadowTopOffset" format="dimension|reference" />
+        <attr name="shadowRadius" format="dimension|reference" />
+        <attr name="shadowAlphaPercent" format="integer|reference" />
+        <!-- Defines whether the ShadowLayout will clip the computed shadow to its padding.
+             This property is set to false by default. -->
+        <attr name="shadowClippedToPadding" format="boolean" />
+        <!-- Defines whether the shadow will be computed in a separate thread.
+             This property is set to false by default. -->
+        <attr name="isAsync" format="boolean" />
+        <attr name="shadowColor" format="color|reference" />
+    </declare-styleable>
+    <!--endregion-->
+
+    <!--region AmountInputLayout-->
+    <declare-styleable name="AmountInputLayout">
+        <attr name="shapeType" format="enum">
+            <enum name="round" value="1" />
+            <enum name="bottomRound" value="2" />
+            <enum name="topRound" value="3" />
+        </attr>
+    </declare-styleable>
+    <!--endregion-->
+</resources>

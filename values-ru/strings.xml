@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_error_message">Произошла ошибка сервера. Попробуйте позже еще раз</string>
+    <string name="server_error_not_found">Произошла ошибка, данные не найдены. Попробуйте позже еще раз</string>
+    <string name="default_http_error_message">Произошла ошибка загрузки данных, возможно, не вся информация на экране актуальна</string>
+    <string name="forbidden_error_error_message">Доступ запрещен</string>
+    <string name="no_internet_connection_error_message">Не удалось загрузить данные. Проверьте соединение с интернетом и попробуйте еще раз</string>
+    <string name="bad_response_error_message">Произошла ошибка загрузки данных на экране. Попробуйте позже еще раз</string>
+    <string name="unexpected_error_error_message">Непредвиденная ошибка</string>
+    <string name="common_error_message">Произошла ошибка загрузки данных,\nпопробуйте обновить экран позже</string>
+    <string name="pagination_footer_text">Загрузить еще</string>
+
+    <string name="state_empty_text">Ничего не найдено</string>
+    <string name="state_error_message">Произошла ошибка</string>
+    <string name="state_error_btn">Обновить</string>
+
+    <string name="close">Закрыть</string>
+
+    <string-array name="months_name">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string name="month_format">%s %d</string>
+    <string name="year_month_format">%d %s %d</string>
+
+    <!--region AuthFragmentView-->
+    <string name="auth_phone_hint">Номер телефона</string>
+    <string name="auth_submit_text">Получить код</string>
+    <string name="auth_phone_error">Номер введен неправильно</string>
+    <string name="auth_continue_without_phone">Продолжит без телефона</string>
+    <!--endregion-->
+
+    <!--region SmsCodeFragmentView-->
+    <string name="sms_code_title">Авторизоваться</string>
+    <string name="sms_code_sent_phone">Код отправлен на номер %s</string>
+    <string name="sms_code_hint">Введите полученный код</string>
+    <string name="sms_code_resend_time">Запросит код можно через %s</string>
+    <string name="sms_code_resent_action">Я не получил код</string>
+    <!--endregion-->
+
+    <!--region FeedFragmentView-->
+    <string name="feed_receiver_card_number">Карта получателя</string>
+    <string name="feed_amount">Сумма</string>
+    <string name="feed_to_payment">Перевести</string>
+    <string name="feed_payment">Оплата</string>
+    <string name="feed_payment_all">Больше</string>
+    <string name="feed_transactions">Транзакции</string>
+    <string name="feed_card_transaction">На карту</string>
+    <string name="feed_amount_helper_sum">Сумма к получению: %s сум (1₽ = %s СУМ)</string>
+    <string name="feed_amount_helper_rub">Снимется %s ₽ (1₽ = %s СУМ)</string>
+    <string name="feed_card_number_error">Номер карты введен неправильно</string>
+    <string name="feed_amount_error">За одну транзакцию можно оплатить от %s сум до %s сум</string>
+    <string name="feed_selector_not_selected">Значение не выбрано</string>
+    <string name="feed_selector_parent_not_selected">Пожалуйста выберите данное значение</string>
+    <string name="feed_transaction_success_title">Платеж принят на обработку</string>
+    <string name="feed_transaction_scuess_subtitle">Обработка платежа может занят от 5 до 15 минут.</string>
+    <!--endregion-->
+
+    <!--region TransactionStatus-->
+    <string name="status_success">Транзакция прошла успешно</string>
+    <string name="status_declined">Транзакция отклонен</string>
+    <string name="status_processing">Транзакция обрабатывается</string>
+    <string name="status_created">Транзакция не оплачен</string>
+    <!--endregion-->
+
+    <!--region FormFragmentView-->
+    <string name="form_pay">Оплатить</string>
+    <!--endregion-->
+
+    <!--region SupportFragmentView-->
+    <string name="support_title">Поддержка</string>
+    <string name="support_telegram">Телеграм</string>
+    <string name="support_phone">Телефон</string>
+    <string name="support_channel">Телеграм канал</string>
+    <!--endregion-->
+
+    <!--region WebConfirmationFragmentView-->
+    <string name="confirmation_exit_message">Процесс оплаты не завершен, вы уверены что хотите выйти?</string>
+    <!--endregion-->
+
+    <!--region TransferDetailsFragmentView-->
+    <string name="transfer_details_amount_receive">Сумма к получению</string>
+    <string name="transfer_details_title">Перевод №%s</string>
+    <string name="transfer_repeat">Повторить</string>
+    <string name="transfer_support">Cвязаться с Arzonpay</string>
+    <!--endregion-->
+
+    <!--region NotificationData-->
+    <string name="notification_transaction_success_body">Мы рады что выбрали нас</string>
+    <string name="notification_transaction_cancelled_body">Пожалуйста свяжитесь с нашими операторами для устранения ошибки</string>
+    <!--endregion-->
+</resources>

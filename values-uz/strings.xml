@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_error_message">Серверда хатолик юз берди. Кейинроқ уруниб кўринг</string>
+    <string name="server_error_not_found">Хатолик юз берди, маълумот топилмади. Кейинроқ уруниб кўринг</string>
+    <string name="default_http_error_message">Маълумотларни юклашда хатолик содир бўлди. Экрандаги барча маълумотлар янгиланмади</string>
+    <string name="forbidden_error_error_message">Рухсат берилмади</string>
+    <string name="no_internet_connection_error_message">Маълумотларни юклаб бўлмади. Интернет билан боғланишни текшириб кўринг</string>
+    <string name="bad_response_error_message">Экрандаги маълумотларни юклашда хатолик юз берди. Кейинроқ қайта уриниб кўринг</string>
+    <string name="unexpected_error_error_message">Кутилмаган хатолик</string>
+    <string name="common_error_message">Маълумотларни юклашда хатолик,\nэкранни кейинроқ янгилаб кўринг</string>
+    <string name="pagination_footer_text">Давомини юклаш</string>
+
+    <string name="state_empty_text">Ҳечнарса топилмади</string>
+    <string name="state_error_message">Хатолик содир бўлди</string>
+    <string name="state_error_btn">Янгилаш</string>
+
+    <string name="close">Беркитиш</string>
+
+    <string-array name="months_name">
+        <item>Январ</item>
+        <item>Феврал</item>
+        <item>Март</item>
+        <item>Апрел</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Август</item>
+        <item>Сентябр</item>
+        <item>Октябр</item>
+        <item>Ноябр</item>
+        <item>Декабр</item>
+    </string-array>
+
+    <string name="month_format">%s %d</string>
+    <string name="year_month_format">%d %s %d</string>
+
+    <!--region AuthFragmentView-->
+    <string name="auth_phone_hint">Телефон рақам</string>
+    <string name="auth_submit_text">Кодни олиш</string>
+    <string name="auth_phone_error">Рақам нотўғри киритилган</string>
+    <string name="auth_continue_without_phone">Телефонсиз давом этиш</string>
+    <!--endregion-->
+
+    <!--region SmsCodeFragmentView-->
+    <string name="sms_code_title">Рўйхатдан ўтиш</string>
+    <string name="sms_code_sent_phone">Код %s рақамига юборилди</string>
+    <string name="sms_code_hint">Тасдиқлаш коди:</string>
+    <string name="sms_code_resend_time">Кодни такроран %s дан сўнг сўраш мумкин</string>
+    <string name="sms_code_resent_action">Кодни такроран юбориш</string>
+    <!--endregion-->
+
+    <!--region FeedFragmentView-->
+    <string name="feed_receiver_card_number">Олувчининг карта рақами</string>
+    <string name="feed_amount">Сумма</string>
+    <string name="feed_to_payment">Ўтказиш</string>
+    <string name="feed_payment">Тўлов</string>
+    <string name="feed_payment_all">Барчаси</string>
+    <string name="feed_transactions">Ўтказмалар</string>
+    <string name="feed_card_transaction">Банк карта</string>
+    <string name="feed_amount_helper_sum">Тушади %s сўм (1₽ = %s СЎМ)</string>
+    <string name="feed_amount_helper_rub">Ечиб олинади %s ₽ (1₽ = %s СЎМ)</string>
+    <string name="feed_card_number_error">Карта рақами нотўғри киритилди</string>
+    <string name="feed_amount_error">Киритилган сумма %s сўмдан %s сўмгача эмас</string>
+    <string name="feed_selector_not_selected">Илтимос қийматни танланг</string>
+    <string name="feed_selector_parent_not_selected">Илтимос аввал ушбу қийматни танланг</string>
+    <string name="feed_transaction_success_title">Тўловингиз қаъбул қилинди</string>
+    <string name="feed_transaction_scuess_subtitle">Тўлов қайта ишланиш жараёни 5 дақиқадан 15 дақиқагача вақт олиши мумкин.</string>
+    <!--endregion-->
+
+    <!--region TransactionStatus-->
+    <string name="status_success">Ўтказма муваффақиятли амалга оширилди</string>
+    <string name="status_declined">Ўтказма рад этилди</string>
+    <string name="status_processing">Ўтказма қайта ишланмоқда</string>
+    <string name="status_created">Ўтказма учун пул тўланмади</string>
+    <!--endregion-->
+
+    <!--region FormFragmentView-->
+    <string name="form_pay">Тўлаш</string>
+    <!--endregion-->
+
+    <!--region SupportFragmentView-->
+    <string name="support_title">Биз билан алоқа</string>
+    <string name="support_telegram">Телеграм</string>
+    <string name="support_phone">Телефон</string>
+    <string name="support_channel">Телеграм канал</string>
+    <!--endregion-->
+
+    <!--region WebConfirmationFragmentView-->
+    <string name="confirmation_exit_message">Тўлов жараёни якунига етмади, уни бекор қилмоқчимисиз?</string>
+    <!--endregion-->
+
+    <!--region TransferDetailsFragmentView-->
+    <string name="transfer_details_amount_receive">Қабул қилинадиган сумма</string>
+    <string name="transfer_details_title">Ўтказма №%s</string>
+    <string name="transfer_repeat">Такрорлаш</string>
+    <string name="transfer_support">ArzonPay билан боғланиш</string>
+    <!--endregion-->
+
+    <!--region NotificationData-->
+    <string name="notification_transaction_success_body">Бизни танлаганингиздан хурсандмиз</string>
+    <string name="notification_transaction_cancelled_body">Илтимос хатоликни бартараф этиш учун бизнигн операторларимиз билан боғланинг</string>
+    <!--endregion-->
+</resources>

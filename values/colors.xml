@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="han_purple">#7D33FF</color>
+    <color name="medium_blue">#3E00CA</color>
+    <color name="heliotrope">#b666ff</color>
+    <color name="wild_strawberry">#FF4081</color>
+    <color name="han_purple_20">#337D33FF</color>
+
+    <color name="black">#000000</color>
+    <color name="black_24">#3c000000</color>
+    <color name="nero">#212121</color>
+    <color name="white">#fff</color>
+    <color name="white_24">#3cffffff</color>
+    <color name="solitude">#F6F7F8</color>
+    <color name="dark_gray">#AFAFAF</color>
+
+    <color name="royal_blue">#2F80ED</color>
+    <color name="hawkes_blue">#E2EAF2</color>
+    <color name="cinnabar">#E13D3D</color>
+    <color name="dodger_blue">#0094FF</color>
+    <color name="columbia_blue">#B3DFFF
+    </color><!-- 30% dodger_blue on white || 70% white on dodger_blue-->
+    <color name="dodger_blue_20">#330094FF</color>
+    <color name="iron">#D0D2D3</color>
+    <color name="mauve">#B692FF</color>
+    <color name="white_smoke">#F2F2F2</color>
+
+    <color name="shamrock">#3DE189</color>
+
+    <color name="black_10">#1A000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="manatee">#9194A7</color>
+    <color name="gainsboro">#D8D8D8</color>
+    <color name="gull_grey">#9BA8B1</color>
+</resources>

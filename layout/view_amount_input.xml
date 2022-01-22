@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_height="wrap_content"
+    tools:layout_width="match_parent"
+    tools:parentTag="ru.arzonpay.android.ui.view.input.AmountInputLayout">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/amount_til"
+        style="@style/TextInputLayout.FilledBox.RoundBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/feed_amount">
+
+        <ru.arzonpay.android.ui.view.input.AmountEditText
+            android:id="@+id/amount_et"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/end_action_ib"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_money_sum" />
+</merge>

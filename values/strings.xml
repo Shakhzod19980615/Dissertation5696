@@ -1,0 +1,116 @@
+<resources>
+    <string name="notification_channel_id" translatable="false">INFORMATION</string>
+    <string name="notification_channel_name" translatable="false">Arzonpay Info</string>
+
+    <string name="snackbar_anchor_tag" translatable="false">message.anchor.snackbar.tag</string>
+
+    <string name="app_name" translatable="false">Arzonpay</string>
+    <string name="server_error_message">Serverda xatolik yuz berdi. Keyinroq urunib ko‘ring</string>
+    <string name="server_error_not_found">Xatolik yuz berdi, ma’lumot topilmadi. Keyinroq urunib ko‘ring</string>
+    <string name="default_http_error_message">Ma’lumotlarni yuklashda xatolik sodir bo‘ldi. Ekrandagi barcha ma’lumotlar yangilanmadi</string>
+    <string name="forbidden_error_error_message">Ruxsat berilmadi</string>
+    <string name="no_internet_connection_error_message">Ma’lumotlarni yuklab bo‘lmadi. Internet bilan bog‘lanishni tekshirib ko‘ring</string>
+    <string name="bad_response_error_message">Ekrandagi ma’lumotlarni yuklashda xatolik yuz berdi. Keyinroq qayta urinib ko‘ring</string>
+    <string name="unexpected_error_error_message">Kutilmagan xatolik</string>
+    <string name="common_error_message">Ma’lumotlarni yuklashda xatolik,\nekranni keyinroq yangilab ko‘ring</string>
+    <string name="pagination_footer_text">Davomini yuklash</string>
+
+    <string name="state_empty_text">Hechnarsa topilmadi</string>
+    <string name="state_error_message">Xatolik sodir bo‘ldi</string>
+    <string name="state_error_btn">Yangilash</string>
+
+    <string name="close">Berkitish</string>
+
+    <string-array name="months_name">
+        <item>Yanvar</item>
+        <item>Fevral</item>
+        <item>Mart</item>
+        <item>Aprel</item>
+        <item>May</item>
+        <item>Iyun</item>
+        <item>Iyul</item>
+        <item>Avgust</item>
+        <item>Sentyabr</item>
+        <item>Oktyabr</item>
+        <item>Noyabr</item>
+        <item>Dekabr</item>
+    </string-array>
+
+    <string name="month_format">%s %d</string>
+    <string name="year_month_format">%d %s %d</string>
+
+    <!--region AuthFragmentView-->
+    <string name="auth_phone_hint">Telefon raqam</string>
+    <string name="auth_submit_text">Kodni olish</string>
+    <string name="auth_phone_error">Raqam noto‘g‘ri kiritilgan</string>
+    <string name="otp_mask" translatable="false" />
+    <string name="auth_continue_without_phone">Telefonsiz davom etish</string>
+    <!--endregion-->
+
+    <!--region SmsCodeFragmentView-->
+    <string name="sms_code_title">Ro‘yxatdan o‘tish</string>
+    <string name="sms_code_sent_phone">Kod %s raqamiga yuborildi</string>
+    <string name="sms_code_hint">Tasdiqlash kodi:</string>
+    <string name="sms_code_resend_time">Kodni takroran %s dan so‘ng so‘rash mumkin</string>
+    <string name="sms_code_resent_action">Kodni takroran yuborish</string>
+    <!--endregion-->
+
+    <!--region FeedFragmentView-->
+    <string name="feed_receiver_card_number">Oluvchining karta raqami</string>
+    <string name="feed_amount">Summa</string>
+    <string name="feed_to_payment">O‘tkazish</string>
+    <string name="feed_payment">To‘lov</string>
+    <string name="feed_payment_all">Barchasi</string>
+    <string name="feed_transactions">O‘tkazmalar</string>
+    <string name="feed_card_transaction">Bank karta</string>
+    <string name="feed_amount_helper_sum">Tushadi %s so‘m (1₽ = %s SO‘M)</string>
+    <string name="feed_amount_helper_rub">Yechib olinadi %s ₽ (1₽ = %s SO‘M)</string>
+    <string name="feed_card_number_error">Karta raqami noto‘g‘ri kiritildi</string>
+    <string name="feed_amount_error">Kiritilgan summa %s so‘mdan %s so‘mgacha emas</string>
+    <string name="feed_selector_not_selected">Iltimos qiymatni tanlang</string>
+    <string name="feed_selector_parent_not_selected">Iltimos avval ushbu qiymatni tanlang</string>
+    <string name="feed_transaction_success_title">To‘lovingiz qa’bul qilindi</string>
+    <string name="feed_transaction_scuess_subtitle">To‘lov qayta ishlanish jarayoni 5 daqiqadan 15 daqiqagacha vaqt olishi mumkin.</string>
+    <!--endregion-->
+
+    <!--region TransactionStatus-->
+    <string name="status_success">O‘tkazma muvaffaqiyatli amalga oshirildi</string>
+    <string name="status_declined">O‘tkazma rad etildi</string>
+    <string name="status_processing">O‘tkazma qayta ishlanmoqda</string>
+    <string name="status_created">O‘tkazma uchun pul to‘lanmadi</string>
+    <!--endregion-->
+
+    <!--region FormFragmentView-->
+    <string name="form_pay">To‘lash</string>
+    <!--endregion-->
+
+    <!--region SupportFragmentView-->
+    <string name="support_title">Biz bilan aloqa</string>
+    <string name="support_telegram">Telegram</string>
+    <string name="support_phone">Telefon</string>
+    <string name="support_channel">Telegram kanal</string>
+    <!--endregion-->
+
+    <!--region LanguageFragmentView-->
+    <string name="language_title" translatable="false">Interfeys tilini tanlang\nИнтерфейс тилини танланг\nВыберите язык интерфейса</string>
+    <string name="language_uz_latin" translatable="false">O‘zbekcha</string>
+    <string name="language_uz_kirill" translatable="false">Ўзбекча</string>
+    <string name="language_ru" translatable="false">Русский</string>
+    <!--endregion-->
+
+    <!--region WebConfirmationFragmentView-->
+    <string name="confirmation_exit_message">To‘lov jarayoni yakuniga yetmadi, uni bekor qilmoqchimisiz?</string>
+    <!--endregion-->
+
+    <!--region TransferDetailsFragmentView-->
+    <string name="transfer_details_amount_receive">Qabul qilinadigan summa</string>
+    <string name="transfer_details_title">O‘tkazma №%s</string>
+    <string name="transfer_repeat">Takrorlash</string>
+    <string name="transfer_support">ArzonPay bilan bog‘lanish</string>
+    <!--endregion-->
+
+    <!--region NotificationData-->
+    <string name="notification_transaction_success_body">Bizni tanlaganingizdan xursandmiz</string>
+    <string name="notification_transaction_cancelled_body">Iltimos xatolikni bartaraf etish uchun biznign operatorlarimiz bilan bog‘laning</string>
+    <!--endregion-->
+</resources>

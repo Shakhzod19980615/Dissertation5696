@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="tri_design_snackbar_min_width" tools:override="true">-1px</dimen>
+    <dimen name="tri_design_snackbar_max_width" tools:override="true">-1px</dimen>
+    <dimen name="tri_design_snackbar_elevation" tools:override="true">6dp</dimen>
+    <dimen name="tri_design_snackbar_background_corner_radius" tools:override="true">8dp</dimen>
+
+    <dimen name="tri_design_snackbar_padding_horizontal" tools:override="true">12dp</dimen>
+
+    <!-- Extra spacing between the action and message views -->
+    <dimen name="tri_design_snackbar_extra_spacing_horizontal" tools:override="true">0dp</dimen>
+    <!-- The maximum width for a Snackbar's inline action. If the view is width than this then
+         the Snackbar will change to vertical stacking -->
+    <dimen name="tri_design_snackbar_action_inline_max_width" tools:override="true">128dp</dimen>
+
+    <dimen name="tri_design_snackbar_text_size" tools:override="true">12sp</dimen>
+
+    <dimen name="tri_design_snackbar_padding_vertical" tools:override="true">16dp</dimen>
+    <dimen name="tri_design_snackbar_padding_vertical_2lines" tools:override="true">16dp</dimen>
+
+    <item name="tri_design_snackbar_action_text_color_alpha" format="float" type="dimen">1.0</item>
+
+    <dimen name="tri_mtrl_snackbar_background_corner_radius" tools:override="true">8dp</dimen>
+    <dimen name="tri_mtrl_snackbar_margin_horizontal" tools:override="true">16dp</dimen>
+    <dimen name="tri_mtrl_snackbar_margin_vertical" tools:override="true">8dp</dimen>
+    <item name="tri_mtrl_snackbar_background_overlay_color_alpha" format="float" type="dimen">0.8</item>
+    <item name="tri_mtrl_snackbar_action_text_color_alpha" format="float" type="dimen">0.5</item>
+
+    <!-- High emphasis of 87% for type. -->
+    <item name="tri_mtrl_emphasis_high_type" format="float" type="dimen">0.87</item>
+    <!-- Medium emphasis of 60% is the same for type and icon. -->
+    <item name="tri_mtrl_emphasis_medium" format="float" type="dimen">0.6</item>
+    <!-- Disabled emphasis of 38% is the same for type and icon. -->
+    <item name="tri_mtrl_emphasis_disabled" format="float" type="dimen">0.38</item>
+
+</resources>

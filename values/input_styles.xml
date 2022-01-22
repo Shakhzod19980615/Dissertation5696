@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInputLayout.Clear" parent="Widget.Design.TextInputLayout">
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="TextInputLayout.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="helperTextEnabled">false</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="boxBackgroundColor">?inputBackgroundColor</item>
+        <item name="hintTextAppearance">@style/Text.Light.10.TertiaryColor</item>
+        <item name="android:textColorHint">?android:textColorTertiary</item>
+        <item name="helperTextTextAppearance">@style/Text.Light.12.TertiaryColor</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxCollapsedPaddingTop">8dp</item>
+    </style>
+
+    <style name="TextInputLayout.FilledBox.RoundTop">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+    </style>
+
+    <style name="TextInputLayout.FilledBox.RoundBottom">
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <style name="TextInputLayout.FilledBox.Round">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:textAppearance">@style/Text.Regular.16.PrimaryColor</item>
+    </style>
+</resources>

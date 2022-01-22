@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Snackbar">
+        <!-- Style to use for Snackbars in this theme. -->
+        <attr name="snackbarStyle" format="reference" />
+        <!-- Style to use for action button within a Snackbar in this theme. -->
+        <attr name="snackbarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SnackbarLayout">
+        <!--<attr name="android:maxWidth"/>-->
+        <attr name="elevation" />
+        <attr name="maxActionInlineWidth" format="dimension" />
+        <!-- Sets the enter and exit animations for a Snackbar. -->
+        <attr name="animationMode" format="enum">
+            <!-- Mode that corresponds to the slide in and out animations. -->
+            <enum name="slide" value="0" />
+            <!-- Mode that corresponds to the fade in and out animations. -->
+            <enum name="fade" value="1" />
+        </attr>
+        <!-- Alpha level for the color that is overlaid on top of the background color. -->
+        <attr name="backgroundOverlayColorAlpha" format="float" />
+        <!-- Alpha level for the action button text, to allow for adjusting the lightness or darkness of
+             the theme color used for Snackbar text buttons (e.g., colorPrimary). -->
+        <attr name="actionTextColorAlpha" format="float" />
+    </declare-styleable>
+
+    <attr name="materialThemeOverlay" format="reference" />
+
+    <declare-styleable name="ThemeEnforcement">
+        <!-- Internal flag used to denote that a style uses new attributes defined by
+             Theme.MaterialComponents, and that the component should check via ThemeEnforcement that the
+             client's app theme inherits from Theme.MaterialComponents.
+
+             Not all usages of new attributes are problematic in the context of a legacy app theme. You
+             should only use this flag if a particular usage is known to cause a visual glitch or crash.
+             For example, tinting a vector drawable with a non-existent theme attribute is known to
+             crash on pre-21 devices. -->
+        <attr name="enforceMaterialTheme" format="boolean" />
+        <!-- Internal flag used to denote that a style requires that the textAppearance attribute is
+             specified and evaluates to a valid text appearance. -->
+        <attr name="enforceTextAppearance" format="boolean" />
+        <!-- Attribute used to check that a component has a TextAppearance specified on it. -->
+        <!--<attr name="android:textAppearance"/>-->
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsFrameLayout">
+        <attr name="insetForeground" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <!-- Horizontal spacing between two items being laid out. -->
+        <attr name="itemSpacing" format="dimension" />
+        <!-- Vertical Spacing between two lines of items being laid out. -->
+        <attr name="lineSpacing" format="dimension" />
+    </declare-styleable>
+
+</resources>

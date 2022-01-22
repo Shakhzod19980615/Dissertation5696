@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="android:windowBackground">@color/han_purple</item>
+        <item name="android:colorBackground">@color/han_purple</item>
+        <item name="android:statusBarColor">@color/han_purple</item>
+        <item name="android:navigationBarColor">@color/han_purple</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

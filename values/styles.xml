@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr name="colorPrimaryDisabled" format="color|reference" />
+    <attr name="transparentLoadStateBgColor" format="color|reference" />
+    <attr name="windowBackgroundDark" format="color|reference" />
+    <attr name="inputBackgroundColor" format="color|reference" />
+    <attr name="serviceStroke" format="color|reference" />
+    <attr name="colorTransactionDeclined" format="color|reference" />
+    <attr name="colorTransactionProcessing" format="color|reference" />
+    <attr name="colorTransactionSuccess" format="color|reference" />
+    <attr name="dividerColor" format="color|reference" />
+    <attr name="colorButtonSecondary" format="reference|color" />
+    <!-- светлая тема -->
+    <style name="BaseTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorAccent">@color/medium_blue</item>
+        <item name="colorButtonSecondary">@color/hawkes_blue</item>
+        <item name="colorError">@color/cinnabar</item>
+        <item name="colorOnBackground">@color/nero</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSurface">@color/nero</item>
+        <item name="colorPrimary">@color/han_purple</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorSecondary">@color/han_purple</item>
+        <item name="colorSecondaryVariant">@color/medium_blue</item>
+        <item name="colorSurface">@color/white</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/manatee</item>
+        <item name="android:textColorTertiary">@color/dark_gray</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="windowBackgroundDark">?colorPrimary</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorControlHighlight">@color/han_purple_20</item>
+        <item name="colorPrimaryDisabled">@color/columbia_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="transparentLoadStateBgColor">@color/black_40</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+        <item name="inputBackgroundColor">@color/solitude</item>
+        <item name="serviceStroke">@color/iron</item>
+        <item name="dividerColor">@color/iron</item>
+
+        <item name="colorTransactionDeclined">@color/cinnabar</item>
+        <item name="colorTransactionProcessing">@color/dark_gray</item>
+        <item name="colorTransactionSuccess">@color/shamrock</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:statusBarColor">?colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="android:navigationBarColor">@color/han_purple</item>
+        <item name="android:windowBackground">@color/han_purple</item>
+        <item name="android:colorBackground">@color/han_purple</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <!-- темная тема -->
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/han_purple</item>
+        <item name="colorPrimaryDark">@color/medium_blue</item>
+        <item name="colorAccent">@color/dodger_blue</item>
+
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+
+        <item name="android:textViewStyle">@style/Text</item>
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+
+    <style name="PopupDialogModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_popup_dialog</item>
+    </style>
+
+    <style name="PopupDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/PopupDialogModalStyle</item>
+        <item name="backgroundColor">@color/white</item>
+    </style>
+</resources>
