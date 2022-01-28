@@ -1,0 +1,7 @@
+apply from: '../commonFeatureModule.gradle'
+apply from: '../commonKaptModule.gradle'
+
+dependencies {
+    implementation project(":i-payment")
+    implementation project(":i-config")
+}

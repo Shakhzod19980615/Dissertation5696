@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ru.surfstudio.android.custom.view.TitleSubtitleView
+        android:id="@+id/value_tsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="5dp"
+        app:subTitleTextAppearance="@style/Text.Regular.16.PrimaryColor"
+        app:titlePaddingBottom="4dp"
+        app:titleTextAppearance="@style/Text.Light.12.TertiaryColor" />
+
+    <ImageView
+        android:id="@+id/currency_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/content_description"
+        tools:src="@drawable/ic_money_sum" />
+</FrameLayout>
